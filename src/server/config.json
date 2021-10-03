@@ -1,0 +1,7 @@
+{
+    "port": 8080,
+    "output_dir": "output",
+    "file_size": 512000,
+    "file_prefix": "prefix",
+    "timeout": 1
+}
