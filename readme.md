@@ -22,7 +22,6 @@ Configurable things:
 ## Begin ##
 1. Clone this repository
 2. `cd connection-broker`
-2. Run `./config.sh` to make the build directory and copy the config file (if the config file changes run this command again).
 
 ## Build ##
 1. Run `./build.sh`
@@ -31,7 +30,8 @@ Configurable things:
 1. Run `./compile.sh`
 
 ## Start the server ##
-1. Run `./server.sh`
+1. Run `./config.sh` to make the build directory and copy the config file (if the config file changes run this command again).
+2. Run `./server.sh`
 
 ## Start the client ##
 You can start as many clients as you want. Write the massage in the console to send it.
